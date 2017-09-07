@@ -1,0 +1,252 @@
+/**{
+	border: 1px solid rgba(0,0,0,0.3);
+}*/
+
+body, html, .wrapper{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width:100%;
+	background: #FFF;
+}
+
+/*====================
+Header Styling Starts
+====================*/
+
+.nav{
+	background: #EEE;
+	height: 54px;
+}
+
+#logo{
+	padding-top: 10px;
+	font: 20px bolder;
+}
+
+#logo a:focus, a:hover {
+    color: #87ceeb;
+    text-decoration: none;
+}
+
+.search{
+	margin: 5px 0 0 12px;
+	padding-right: 10px;
+	width: 68em;
+}
+
+.blue-bg{
+	color: #87ceeb;
+}
+
+.black-bg{
+	float: left;
+	color: #222;
+
+}
+
+#drop-d{
+height: 100%;
+}
+
+#drop-d ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#drop-d li{
+	display: inline-block;
+	margin: 0;
+	height: 100%;
+}
+
+
+#card- a{
+	text-decoration: none;
+}
+
+
+.card1{
+	list-style: none;
+	float: right;
+	margin-left:20px;
+	padding: 12px 0 10px 10px;
+	width: 70px;
+	height: 48px;
+	background-color: white;
+}
+.card1:hover{
+	background-color: darkcyan;
+}
+
+.card2{
+	list-style: none;
+	margin-right:0;	
+	padding: 12px 0 10px 10px;
+	width: 70px;
+	height: 48px;
+	background-color: #87ceeb;
+}
+
+.card2:hover{
+	background-color: darkcyan;
+}
+
+.caret{
+	margin-top: 20px;
+	height: 30px;
+}
+#card{
+	margin-top: 0;
+	margin-left: 0;
+	float: right;
+	margin-left: 0;
+	padding: 0;
+	height: 50px;
+	margin-bottom: 0;
+}
+
+
+.link-white{
+	color: #87ceeb;
+	font: 14px bolder Helvetica sans-serif;
+}
+
+.link-blue{
+	color: #fff;
+	font: 14px bolder sans-serif;
+}
+
+/*====================
+Header Styling Ends
+====================*/
+
+
+
+/*====================
+Main Styling starts
+====================*/
+main{
+	position: relative;
+	top: -10px;
+	padding-top: 0;
+	height: 100%;
+}
+
+/*====================
+Main Styling Ends
+====================*/
+
+
+/*====================
+Aside Styling Starts
+====================*/
+
+#leftSidebar{
+	position: absolute;
+	height: 100%;
+	background: #333;
+	width: 200px;
+	z-index: 5;
+}
+
+#leftSidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 100%;
+}
+
+hr{
+	margin:0;
+	border-top: 1px solid rgba(150,150,150,0.3);
+}
+
+#leftSidebar ul li a{
+	display: block;
+	width: 100%;
+	color: #bbb;
+	text-decoration: none;
+}
+
+#leftSidebar [class*='fa-']{
+	float: left;
+	padding: 5px;
+	width: 70px;
+	text-align: center;
+	line-height: 20px;
+}
+
+#leftSidebar li p{
+	padding: 5px;
+	line-height: 20px;
+	font: 16px bold 	serif;
+}
+/*====================
+Aside Styling Ends
+====================*/
+
+
+
+/*====================
+Content Styling Starts
+====================*/
+
+#content{
+	width: calc(100% - 200px);
+	background-color: #EEE;
+	position: relative;
+	margin-left: auto;
+	margin-top: 0;
+	height: 100%;
+	padding: 20px;
+	padding-left: 0;
+}
+
+#cover{
+height: 300px;
+position: relative;
+width: 100em;
+margin-left: 0;	
+top: -20px;
+background-size: contain;
+background: url(../../assets/img/mic.jpg) center center;
+background-attachment: fixed;
+padding-left: 20px;
+}
+
+.text-box{
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin: 20px 0 20px 20px;
+	max-width: 700px;
+}
+.text-box p{
+	max-width: 500px;
+}
+
+#cont{
+	position: relative;
+	margin-top: 0;
+	width: 100em;
+	top: -2em;
+	background-color: #eee;
+	height: 300px;
+}
+
+.box1{
+	float: left;
+	position: relative;
+	top: 1em;
+	left: 6em;
+	width: 250px;
+	height: 300px;
+	background-color: white;
+}
+
+
+/*====================
+Content Styling Ends
+====================*/
